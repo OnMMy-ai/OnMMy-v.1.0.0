@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onmmy"
+version = "0.1.0"
+description = "OnMMy: Open New Meta-Mind System"
+readme = "README.md"
+authors = [{name="OnMMy Maintainers"}]
+requires-python = ">=3.9"
