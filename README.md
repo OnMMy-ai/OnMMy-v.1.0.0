@@ -2,7 +2,7 @@
   <img src="https://imghost.online/ib/5Bxw7Ilt1UOo2Os_1754796370.png" alt="ONMMY Logo" width="200" />
 </p>
 
-<h1 align="center">OnMMy AA</h1>
+<h1 align="center">OnMMy v.1.0.0</h1>
 
 > 让每个人都能运行未来。  
 > OnMMy 是一个“元操作系统”原型：把人类与智能体的知识、任务、规则、环境抽象成模块，并在统一引擎中组合、运行与模拟。
