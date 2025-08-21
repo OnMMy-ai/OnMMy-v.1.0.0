@@ -1,0 +1,33 @@
+name: "🚀 Feature Proposal (New Cognitive Module)"
+description: "提出一个新的功能 / 模块 / 黑科技实验"
+labels: ["enhancement", "future-tech"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 提案：OnMMy 新特性 / 新模块
+        你的想法 = 系统未来的可能性。
+  - type: input
+    id: name
+    attributes:
+      label: "🌌 模块名称 / 功能代号"
+      placeholder: "Neural-Democracy Engine"
+  - type: textarea
+    id: vision
+    attributes:
+      label: "🔮 愿景 / 背景"
+      placeholder: "这个功能能让 OnMMy 模拟未来社会中的..."
+  - type: textarea
+    id: design
+    attributes:
+      label: "🛠️ 初步设计"
+      description: "描述可能的输入、输出、交互方式"
+      placeholder: "输入：社会规则\n输出：治理模拟结果..."
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "📡 优先级"
+      options:
+        - "低 - 长远实验"
+        - "中 - 可行但需要研究"
+        - "高 - 紧急需要实现"
