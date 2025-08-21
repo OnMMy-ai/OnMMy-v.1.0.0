@@ -1,0 +1,35 @@
+name: "🪲 Bug Report (System Glitch)"
+description: "报告 OnMMy 系统中的 Bug / 故障 / 异常行为"
+labels: ["bug", "system-glitch"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧬 OnMMy System Glitch Report
+        请尽可能详细描述异常，这将帮助我们修复「元操作系统」的潜在漏洞。
+  - type: input
+    id: module
+    attributes:
+      label: "📂 模块名称"
+      description: "在哪个模块出现了异常？例如 governance/democracy.json"
+      placeholder: "modules/governance/democracy.json"
+  - type: textarea
+    id: glitch
+    attributes:
+      label: "🪐 异常现象"
+      description: "描述你看到的错误、现象或不符合预期的行为"
+      placeholder: "例如：运行 democracy.json 时，输出为空..."
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "🔁 重现步骤"
+      description: "最小化复现步骤"
+      placeholder: "1. 运行 run_onmmy.py run modules/xxx.json\n2. ..."
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "⚠️ 严重程度"
+      options:
+        - "🟢 Minor"
+        - "🟡 Major"
+        - "🔴 Critical"
