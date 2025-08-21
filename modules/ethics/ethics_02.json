@@ -1,0 +1,38 @@
+{
+  "name": "Ethics 2",
+  "category": "ethics",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for ethics 2"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for ethics 2"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for ethics 2"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for ethics 2"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed ethics 2"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Art 4",
+  "category": "art",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for art 4"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for art 4"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for art 4"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for art 4"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed art 4"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}
