@@ -1,0 +1,59 @@
+name: OnMMy Project Workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  issues:
+    types: [opened]
+
+jobs:
+  auto-assign-issues:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues'
+    steps:
+      - name: Auto-assign issue
+        uses: actions/auto-assign@v1
+        with:
+          assignees: "Pomsakar"
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+
+  python-ci:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'issues'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run tests
+        run: |
+          if [ -f tests/test_main.py ]; then pytest tests/; else echo "No tests found"; fi
+
+      - name: Build EXE (optional)
+        run: |
+          if [ -f run_onmmy.py ]; then
+            pip install pyinstaller
+            pyinstaller --onefile run_onmmy.py --distpath dist
+          fi
+
+  upload-release-artifact:
+    runs-on: ubuntu-latest
+    needs: python-ci
+    if: github.event_name != 'issues'
+    steps:
+      - name: Upload EXE artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: OnMMy-EXE
+          path: dist/run_onmmy.exe
