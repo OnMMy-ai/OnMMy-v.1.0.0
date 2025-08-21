@@ -1,0 +1,25 @@
+name: "🧪 Research Question"
+description: "提出一个与 OnMMy 相关的科研 / 哲学 / AI 系统性问题"
+labels: ["research", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧪 研究议题
+        OnMMy 不只是代码，它也是思想实验。  
+        在这里提交你认为值得探讨的问题。
+  - type: input
+    id: title
+    attributes:
+      label: "📖 问题标题"
+      placeholder: "如何在 OnMMy 中实现去中心化记忆？"
+  - type: textarea
+    id: context
+    attributes:
+      label: "🌍 背景"
+      placeholder: "为什么这个问题重要？它和 OnMMy 的愿景有什么联系？"
+  - type: textarea
+    id: approaches
+    attributes:
+      label: "🛠️ 潜在解决路径"
+      placeholder: "1. 使用分布式 KV store\n2. 模拟类脑记忆网络..."
