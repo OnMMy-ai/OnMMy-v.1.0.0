@@ -1,0 +1,38 @@
+{
+  "name": "Security 5",
+  "category": "security",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for security 5"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for security 5"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for security 5"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for security 5"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed security 5"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

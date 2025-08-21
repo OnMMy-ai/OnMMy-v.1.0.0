@@ -1,0 +1,38 @@
+{
+  "name": "Finance 6",
+  "category": "finance",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for finance 6"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for finance 6"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for finance 6"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for finance 6"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed finance 6"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

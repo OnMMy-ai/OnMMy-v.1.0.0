@@ -1,0 +1,38 @@
+{
+  "name": "Transportation 3",
+  "category": "transportation",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for transportation 3"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for transportation 3"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for transportation 3"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for transportation 3"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed transportation 3"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

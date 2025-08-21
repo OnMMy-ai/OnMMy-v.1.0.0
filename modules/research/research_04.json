@@ -1,0 +1,38 @@
+{
+  "name": "Research 4",
+  "category": "research",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for research 4"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for research 4"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for research 4"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for research 4"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed research 4"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

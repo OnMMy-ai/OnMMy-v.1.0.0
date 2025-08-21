@@ -1,0 +1,38 @@
+{
+  "name": "Health 1",
+  "category": "health",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for health 1"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for health 1"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for health 1"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for health 1"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed health 1"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

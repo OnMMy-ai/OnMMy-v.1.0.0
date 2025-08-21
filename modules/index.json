@@ -1,0 +1,615 @@
+{
+  "count": 122,
+  "modules": [
+    {
+      "path": "modules/governance/governance_01.json",
+      "name": "Governance 1",
+      "category": "governance"
+    },
+    {
+      "path": "modules/governance/governance_02.json",
+      "name": "Governance 2",
+      "category": "governance"
+    },
+    {
+      "path": "modules/governance/governance_03.json",
+      "name": "Governance 3",
+      "category": "governance"
+    },
+    {
+      "path": "modules/governance/governance_04.json",
+      "name": "Governance 4",
+      "category": "governance"
+    },
+    {
+      "path": "modules/governance/governance_05.json",
+      "name": "Governance 5",
+      "category": "governance"
+    },
+    {
+      "path": "modules/governance/governance_06.json",
+      "name": "Governance 6",
+      "category": "governance"
+    },
+    {
+      "path": "modules/economy/economy_01.json",
+      "name": "Economy 1",
+      "category": "economy"
+    },
+    {
+      "path": "modules/economy/economy_02.json",
+      "name": "Economy 2",
+      "category": "economy"
+    },
+    {
+      "path": "modules/economy/economy_03.json",
+      "name": "Economy 3",
+      "category": "economy"
+    },
+    {
+      "path": "modules/economy/economy_04.json",
+      "name": "Economy 4",
+      "category": "economy"
+    },
+    {
+      "path": "modules/economy/economy_05.json",
+      "name": "Economy 5",
+      "category": "economy"
+    },
+    {
+      "path": "modules/economy/economy_06.json",
+      "name": "Economy 6",
+      "category": "economy"
+    },
+    {
+      "path": "modules/education/education_01.json",
+      "name": "Education 1",
+      "category": "education"
+    },
+    {
+      "path": "modules/education/education_02.json",
+      "name": "Education 2",
+      "category": "education"
+    },
+    {
+      "path": "modules/education/education_03.json",
+      "name": "Education 3",
+      "category": "education"
+    },
+    {
+      "path": "modules/education/education_04.json",
+      "name": "Education 4",
+      "category": "education"
+    },
+    {
+      "path": "modules/education/education_05.json",
+      "name": "Education 5",
+      "category": "education"
+    },
+    {
+      "path": "modules/education/education_06.json",
+      "name": "Education 6",
+      "category": "education"
+    },
+    {
+      "path": "modules/health/health_01.json",
+      "name": "Health 1",
+      "category": "health"
+    },
+    {
+      "path": "modules/health/health_02.json",
+      "name": "Health 2",
+      "category": "health"
+    },
+    {
+      "path": "modules/health/health_03.json",
+      "name": "Health 3",
+      "category": "health"
+    },
+    {
+      "path": "modules/health/health_04.json",
+      "name": "Health 4",
+      "category": "health"
+    },
+    {
+      "path": "modules/health/health_05.json",
+      "name": "Health 5",
+      "category": "health"
+    },
+    {
+      "path": "modules/health/health_06.json",
+      "name": "Health 6",
+      "category": "health"
+    },
+    {
+      "path": "modules/productivity/productivity_01.json",
+      "name": "Productivity 1",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/productivity/productivity_02.json",
+      "name": "Productivity 2",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/productivity/productivity_03.json",
+      "name": "Productivity 3",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/productivity/productivity_04.json",
+      "name": "Productivity 4",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/productivity/productivity_05.json",
+      "name": "Productivity 5",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/productivity/productivity_06.json",
+      "name": "Productivity 6",
+      "category": "productivity"
+    },
+    {
+      "path": "modules/environment/environment_01.json",
+      "name": "Environment 1",
+      "category": "environment"
+    },
+    {
+      "path": "modules/environment/environment_02.json",
+      "name": "Environment 2",
+      "category": "environment"
+    },
+    {
+      "path": "modules/environment/environment_03.json",
+      "name": "Environment 3",
+      "category": "environment"
+    },
+    {
+      "path": "modules/environment/environment_04.json",
+      "name": "Environment 4",
+      "category": "environment"
+    },
+    {
+      "path": "modules/environment/environment_05.json",
+      "name": "Environment 5",
+      "category": "environment"
+    },
+    {
+      "path": "modules/environment/environment_06.json",
+      "name": "Environment 6",
+      "category": "environment"
+    },
+    {
+      "path": "modules/transportation/transportation_01.json",
+      "name": "Transportation 1",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/transportation/transportation_02.json",
+      "name": "Transportation 2",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/transportation/transportation_03.json",
+      "name": "Transportation 3",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/transportation/transportation_04.json",
+      "name": "Transportation 4",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/transportation/transportation_05.json",
+      "name": "Transportation 5",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/transportation/transportation_06.json",
+      "name": "Transportation 6",
+      "category": "transportation"
+    },
+    {
+      "path": "modules/culture/culture_01.json",
+      "name": "Culture 1",
+      "category": "culture"
+    },
+    {
+      "path": "modules/culture/culture_02.json",
+      "name": "Culture 2",
+      "category": "culture"
+    },
+    {
+      "path": "modules/culture/culture_03.json",
+      "name": "Culture 3",
+      "category": "culture"
+    },
+    {
+      "path": "modules/culture/culture_04.json",
+      "name": "Culture 4",
+      "category": "culture"
+    },
+    {
+      "path": "modules/culture/culture_05.json",
+      "name": "Culture 5",
+      "category": "culture"
+    },
+    {
+      "path": "modules/culture/culture_06.json",
+      "name": "Culture 6",
+      "category": "culture"
+    },
+    {
+      "path": "modules/security/security_01.json",
+      "name": "Security 1",
+      "category": "security"
+    },
+    {
+      "path": "modules/security/security_02.json",
+      "name": "Security 2",
+      "category": "security"
+    },
+    {
+      "path": "modules/security/security_03.json",
+      "name": "Security 3",
+      "category": "security"
+    },
+    {
+      "path": "modules/security/security_04.json",
+      "name": "Security 4",
+      "category": "security"
+    },
+    {
+      "path": "modules/security/security_05.json",
+      "name": "Security 5",
+      "category": "security"
+    },
+    {
+      "path": "modules/security/security_06.json",
+      "name": "Security 6",
+      "category": "security"
+    },
+    {
+      "path": "modules/communication/communication_01.json",
+      "name": "Communication 1",
+      "category": "communication"
+    },
+    {
+      "path": "modules/communication/communication_02.json",
+      "name": "Communication 2",
+      "category": "communication"
+    },
+    {
+      "path": "modules/communication/communication_03.json",
+      "name": "Communication 3",
+      "category": "communication"
+    },
+    {
+      "path": "modules/communication/communication_04.json",
+      "name": "Communication 4",
+      "category": "communication"
+    },
+    {
+      "path": "modules/communication/communication_05.json",
+      "name": "Communication 5",
+      "category": "communication"
+    },
+    {
+      "path": "modules/communication/communication_06.json",
+      "name": "Communication 6",
+      "category": "communication"
+    },
+    {
+      "path": "modules/research/research_01.json",
+      "name": "Research 1",
+      "category": "research"
+    },
+    {
+      "path": "modules/research/research_02.json",
+      "name": "Research 2",
+      "category": "research"
+    },
+    {
+      "path": "modules/research/research_03.json",
+      "name": "Research 3",
+      "category": "research"
+    },
+    {
+      "path": "modules/research/research_04.json",
+      "name": "Research 4",
+      "category": "research"
+    },
+    {
+      "path": "modules/research/research_05.json",
+      "name": "Research 5",
+      "category": "research"
+    },
+    {
+      "path": "modules/research/research_06.json",
+      "name": "Research 6",
+      "category": "research"
+    },
+    {
+      "path": "modules/art/art_01.json",
+      "name": "Art 1",
+      "category": "art"
+    },
+    {
+      "path": "modules/art/art_02.json",
+      "name": "Art 2",
+      "category": "art"
+    },
+    {
+      "path": "modules/art/art_03.json",
+      "name": "Art 3",
+      "category": "art"
+    },
+    {
+      "path": "modules/art/art_04.json",
+      "name": "Art 4",
+      "category": "art"
+    },
+    {
+      "path": "modules/art/art_05.json",
+      "name": "Art 5",
+      "category": "art"
+    },
+    {
+      "path": "modules/art/art_06.json",
+      "name": "Art 6",
+      "category": "art"
+    },
+    {
+      "path": "modules/ethics/ethics_01.json",
+      "name": "Ethics 1",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/ethics/ethics_02.json",
+      "name": "Ethics 2",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/ethics/ethics_03.json",
+      "name": "Ethics 3",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/ethics/ethics_04.json",
+      "name": "Ethics 4",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/ethics/ethics_05.json",
+      "name": "Ethics 5",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/ethics/ethics_06.json",
+      "name": "Ethics 6",
+      "category": "ethics"
+    },
+    {
+      "path": "modules/law/law_01.json",
+      "name": "Law 1",
+      "category": "law"
+    },
+    {
+      "path": "modules/law/law_02.json",
+      "name": "Law 2",
+      "category": "law"
+    },
+    {
+      "path": "modules/law/law_03.json",
+      "name": "Law 3",
+      "category": "law"
+    },
+    {
+      "path": "modules/law/law_04.json",
+      "name": "Law 4",
+      "category": "law"
+    },
+    {
+      "path": "modules/law/law_05.json",
+      "name": "Law 5",
+      "category": "law"
+    },
+    {
+      "path": "modules/law/law_06.json",
+      "name": "Law 6",
+      "category": "law"
+    },
+    {
+      "path": "modules/agriculture/agriculture_01.json",
+      "name": "Agriculture 1",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/agriculture/agriculture_02.json",
+      "name": "Agriculture 2",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/agriculture/agriculture_03.json",
+      "name": "Agriculture 3",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/agriculture/agriculture_04.json",
+      "name": "Agriculture 4",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/agriculture/agriculture_05.json",
+      "name": "Agriculture 5",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/agriculture/agriculture_06.json",
+      "name": "Agriculture 6",
+      "category": "agriculture"
+    },
+    {
+      "path": "modules/energy/energy_01.json",
+      "name": "Energy 1",
+      "category": "energy"
+    },
+    {
+      "path": "modules/energy/energy_02.json",
+      "name": "Energy 2",
+      "category": "energy"
+    },
+    {
+      "path": "modules/energy/energy_03.json",
+      "name": "Energy 3",
+      "category": "energy"
+    },
+    {
+      "path": "modules/energy/energy_04.json",
+      "name": "Energy 4",
+      "category": "energy"
+    },
+    {
+      "path": "modules/energy/energy_05.json",
+      "name": "Energy 5",
+      "category": "energy"
+    },
+    {
+      "path": "modules/energy/energy_06.json",
+      "name": "Energy 6",
+      "category": "energy"
+    },
+    {
+      "path": "modules/housing/housing_01.json",
+      "name": "Housing 1",
+      "category": "housing"
+    },
+    {
+      "path": "modules/housing/housing_02.json",
+      "name": "Housing 2",
+      "category": "housing"
+    },
+    {
+      "path": "modules/housing/housing_03.json",
+      "name": "Housing 3",
+      "category": "housing"
+    },
+    {
+      "path": "modules/housing/housing_04.json",
+      "name": "Housing 4",
+      "category": "housing"
+    },
+    {
+      "path": "modules/housing/housing_05.json",
+      "name": "Housing 5",
+      "category": "housing"
+    },
+    {
+      "path": "modules/housing/housing_06.json",
+      "name": "Housing 6",
+      "category": "housing"
+    },
+    {
+      "path": "modules/finance/finance_01.json",
+      "name": "Finance 1",
+      "category": "finance"
+    },
+    {
+      "path": "modules/finance/finance_02.json",
+      "name": "Finance 2",
+      "category": "finance"
+    },
+    {
+      "path": "modules/finance/finance_03.json",
+      "name": "Finance 3",
+      "category": "finance"
+    },
+    {
+      "path": "modules/finance/finance_04.json",
+      "name": "Finance 4",
+      "category": "finance"
+    },
+    {
+      "path": "modules/finance/finance_05.json",
+      "name": "Finance 5",
+      "category": "finance"
+    },
+    {
+      "path": "modules/finance/finance_06.json",
+      "name": "Finance 6",
+      "category": "finance"
+    },
+    {
+      "path": "modules/welfare/welfare_01.json",
+      "name": "Welfare 1",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/welfare/welfare_02.json",
+      "name": "Welfare 2",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/welfare/welfare_03.json",
+      "name": "Welfare 3",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/welfare/welfare_04.json",
+      "name": "Welfare 4",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/welfare/welfare_05.json",
+      "name": "Welfare 5",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/welfare/welfare_06.json",
+      "name": "Welfare 6",
+      "category": "welfare"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_01.json",
+      "name": "Urban_Planning 1",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_02.json",
+      "name": "Urban_Planning 2",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_03.json",
+      "name": "Urban_Planning 3",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_04.json",
+      "name": "Urban_Planning 4",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_05.json",
+      "name": "Urban_Planning 5",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/urban_planning/urban_planning_06.json",
+      "name": "Urban_Planning 6",
+      "category": "urban_planning"
+    },
+    {
+      "path": "modules/governance/democracy.json",
+      "name": "Democracy 0",
+      "category": "governance"
+    },
+    {
+      "path": "modules/economy/basic_income.json",
+      "name": "Basic_Income 0",
+      "category": "economy"
+    }
+  ]
+}

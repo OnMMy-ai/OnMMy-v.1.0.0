@@ -1,0 +1,38 @@
+{
+  "name": "Housing 5",
+  "category": "housing",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for housing 5"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for housing 5"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for housing 5"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for housing 5"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed housing 5"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}

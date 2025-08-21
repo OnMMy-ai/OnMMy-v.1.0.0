@@ -1,0 +1,38 @@
+{
+  "name": "Law 3",
+  "category": "law",
+  "version": "0.1",
+  "inputs": {
+    "goal": "demo for law 3"
+  },
+  "outputs": {
+    "plan": "",
+    "tasks": []
+  },
+  "steps": [
+    {
+      "action": "plan",
+      "by": "ai",
+      "detail": "High-level plan for law 3"
+    },
+    {
+      "action": "task",
+      "by": "human",
+      "detail": "Execute step A for law 3"
+    },
+    {
+      "action": "task",
+      "by": "ai",
+      "detail": "Automate step B for law 3"
+    },
+    {
+      "action": "emit",
+      "by": "system",
+      "detail": "Completed law 3"
+    }
+  ],
+  "meta": {
+    "author": "generator",
+    "created_at": "2025-08-20T13:20:07.518289Z"
+  }
+}
