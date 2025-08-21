@@ -16,7 +16,7 @@ jobs:
       - name: Auto-assign issue
         uses: actions/auto-assign@v1
         with:
-          assignees: "Pomsakar"
+          assignees: "你的GitHub用户名"  # 可以改成团队成员
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
 
   python-ci:
@@ -40,12 +40,10 @@ jobs:
         run: |
           if [ -f tests/test_main.py ]; then pytest tests/; else echo "No tests found"; fi
 
-      - name: Build EXE (optional)
+      - name: Build EXE
         run: |
-          if [ -f run_onmmy.py ]; then
-            pip install pyinstaller
-            pyinstaller --onefile run_onmmy.py --distpath dist
-          fi
+          pip install pyinstaller
+          pyinstaller --onefile run_onmmy.py --name OnMMy-v.1.0.0 --distpath dist
 
   upload-release-artifact:
     runs-on: ubuntu-latest
@@ -53,7 +51,7 @@ jobs:
     if: github.event_name != 'issues'
     steps:
       - name: Upload EXE artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: OnMMy-EXE
-          path: dist/run_onmmy.exe
+          name: OnMMy-v.1.0.0
+          path: dist/OnMMy-v.1.0.0.exe
